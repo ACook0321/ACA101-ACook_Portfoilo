@@ -1,0 +1,75 @@
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav{
+  display: flex;
+  width: 550px;
+  height: auto;
+  
+}
+
+.navUL{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+.shape{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+.shape:hover {
+  padding: 10px;
+  border-radius: 50px;
+  height: 25px;
+  width: 100px;
+  display: inline-flex;
+  border: none;
+  transition: all 0.4s ease 0s;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoverName{
+  display: none;
+  padding: 50;
+}
+.hoverLetter{
+  padding: 50 25;
+}
+
+:hover .hoverName{
+  display: unset;
+}
+:hover .hoverLetter{
+  display: none;
+}
+
+.about{
+  background-color: white;
+}
+.resume{
+  background-color: white;
+}
+.home{
+  background-color: white;
+}
+.portfolio{
+  background-color: white;
+}
+.contact{
+  background-color: white;
+}

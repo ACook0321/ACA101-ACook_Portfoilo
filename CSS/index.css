@@ -1,0 +1,36 @@
+body{
+  width: 100%;
+  max-width: 1600;
+  height: 100%;
+}
+
+
+.Main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+    
+}
+
+.myName{
+ width: 500px;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ padding-bottom: 20px;
+ color: white;
+ border-bottom: 2px white solid;
+   
+}
+
+.myTitle{
+ width: fit-content;
+ height: auto;
+ padding: 20px 0;
+ color: white;
+}
+
