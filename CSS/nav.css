@@ -29,6 +29,7 @@ a{
   justify-content: center;
   align-items: center;
   
+  
   }
 
 .shape:hover {
@@ -46,7 +47,9 @@ a{
 .hoverName{
   display: none;
   padding: 50;
+  color: black;
 }
+
 .hoverLetter{
   padding: 50 25;
 }
@@ -59,17 +62,33 @@ a{
 }
 
 .about{
-  background-color: white;
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 .resume{
-  background-color: white;
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 .home{
-  background-color: white;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 .portfolio{
-  background-color: white;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 .contact{
-  background-color: white;
+  background-color: darkorchid;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
+
