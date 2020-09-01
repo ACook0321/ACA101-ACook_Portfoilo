@@ -11,40 +11,48 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;   
+  background-image: url(../images/rain.gif);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
 }
 
+
 .myName{
- width: 500px;
+ width: 100%;
  height: auto;
  text-align: center;
  justify-content: center;
  padding-bottom: 10px;
- color: white;
- border-bottom: 2px white solid;
- font-size: 60px;
+ color:rgb(182, 180, 180);
+ border-bottom: 5px rgb(182, 180, 180) solid;
+ font-size: 40px;
  font-weight: 700;
  letter-spacing: 2px;
- margin-bottom: 10px;
- background: black;
+ margin-bottom: 0;
  position: relative;
- animation: text1 2s 1 ease-in-out;
+ animation: text1 1.5s 1 ease-in-out;
+ animation-fill-mode: 1s;
  z-index: 1;
  overflow: hidden;
  white-space: nowrap;
 }
 
+.nameText{
+  animation: name 1.5s 1 ease-in;
+  margin-bottom: -10;
+}
+
 .myTitle{
  width: 500px;
- height: fit-content;
+ height: auto;
  text-align: center;
  padding-bottom: 20px;
  color: rgb(119, 33, 33);
- font-size: 30px;
+ font-size: 20px;
  font-weight: 500;
  letter-spacing: 5px;
- animation: text2 2.7s 1 ease-in;
- background: black;
+ animation: text2 1.8s 1 ease-in;
  margin-bottom: 0;
  position: relative;
  z-index: 0;
@@ -56,23 +64,49 @@ body{
 @keyframes text1{
   0%{
     width: 0;
-    margin-bottom: -40px;
-    color: black;
+    }
+}
+
+@keyframes name{
+  0%{
+    margin-bottom: -90;
     opacity: 0;
-    }
-  60%{
-      color: black;
-    }
+  }
+  35%{
+    margin-bottom: -90;
+    opacity: 0;
+  }
 }
 
 @keyframes text2{
   0%{
-    opacity: 0;   
+    opacity: 0;
+    margin-top: -30;   
   }
   40%{
     opacity: 0;
   }
   80%{
     opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 649px) {
+  .myName {
+    font-size: calc(40px + 6 * ((100vw - 320px) / 680));
+    width: 300px;
+  }
+  .myTitle{
+    font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 650px) {
+  .myName {
+    font-size: 60px;
+    width: 500px;
+  }
+  .myTitle{
+    font-size: 30px;
   }
 }
