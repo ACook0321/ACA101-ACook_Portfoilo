@@ -1,0 +1,52 @@
+.nav{
+  margin: auto;
+  position: fixed;
+  margin-top: 20px;
+  z-index: 3;
+}
+.about{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+.resume{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+.home{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+.portfolio{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+.contactNAV{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+
+.shape:hover{
+  background-color: rgb(255, 255, 255,0);
+  color: black;
+  border: black solid 1px;
+}
+
+#hamitems{
+  background:rgb(182, 180, 180,.9);
+}
+
+#hamnav label {
+  background: black;
+}
+
+
+@media screen and (max-width: 768px){
+  .nav{
+    display: none;
+  }
+}

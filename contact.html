@@ -3,12 +3,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./CSS/reset.css">
-  <link rel="stylesheet" href="./CSS/contact.css">
   <link rel="stylesheet" href="./CSS/nav.css">
+  <link rel="stylesheet" href="./CSS/hamNAV.css">
+  <link rel="stylesheet" href="./CSS/navContact.css">
   <link rel="stylesheet" href="./CSS/footer.css">
+  <link rel="stylesheet" href="./CSS/font.css">
+  <link rel="stylesheet" href="./CSS/contact.css"> 
   <title>Contact Aaron</title>
 </head>
 <body>
-  
-</body>
+  <body>
+    <main class="mainCONTACT">
+      <nav class="nav">
+        <ul class="navUL">
+          <div class="home shape "><a href="index.html"><h2 class="hoverName indexFont">HOME</h2> <h2 class="hoverLetter indexFont">H</h2></a></div>
+          <div class="about shape aniOP" ><a href="about.html"><h2 class="hoverName indexFont">ABOUT</h2> <h2 class="hoverLetter indexFont">A</h2></a></div>
+          <div class="resume shape aniOP"><a href="resume.html"><h2 class="hoverName indexFont">RESUME</h2> <h2 class="hoverLetter indexFont">R</h2></a></div>
+          <div class="portfolio shape aniOP"><a href="portfolio.html"><h2 class="hoverName indexFont">PORTFOLIO</h2> <h2 class="hoverLetter indexFont">P</h2></a></div>
+          <div class="contactNAV shape aniOP"><a href="contact.html"><h2 class="hoverName indexFont">CONTACT</h2> <h2 class="hoverLetter indexFont">C</h2></a></div>
+        </ul>  
+    </nav>
+    
+    <nav id="hamnav">
+      <!-- [THE HAMBURGER] -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+    
+      <!-- [MENU ITEMS] -->
+      <div id="hamitems">
+        <a href="./index.html"><h1 class="fontIndex">Home</h1></a>
+        <a href="./about.html"><h1 class="fontIndex">About</h1></a>
+        <a href="./resume.html"><h1 class="fontIndex">Resume</h1></a>
+        <a href="./portfolio.html"><h1 class="fontIndex">Portfolio</h1></a>
+        <a href="./contact.html"><h1 class="fontIndex">Contact</h1></a>
+      </div>
+    </nav>
+      <div class="contactHEADER indexFont"><h1 class="contactTITLE">CONTACT ME</h1></div> 
+      <form class="formCONTAINER" action="">
+        <input class="conBORDER conSIZE" type="text" id="fname" name="firstname" placeholder="NAME">
+        <input class="conBORDER conSIZE" type="text" id="fname" name="firstname" placeholder="EMAIL">
+        <input class="conBORDER conSIZE" type="text" id="fname" name="firstname" placeholder="PHONE NUMBER">
+        <textarea class="conBORDER messageSIZE" id="subject" name="subject" placeholder="MESSAGE" style="height:200px"></textarea>
+        <input class="conBORDER sendSIZE" type="submit" value="SEND">
+ 
+       </form>
+     </main>
+
+  </body>
 </html>

@@ -27,6 +27,7 @@
   z-index: 2;
   animation: home .5s 1 ease-in;
   animation-delay: 2.3s;
+  cursor: not-allowed;
 }
 .portfolio{
   animation: portfolio 1.2s 1 ease-in;
@@ -36,7 +37,7 @@
   margin-left: 0px;
 
 }
-.contact{
+.contactNAV{
   animation: contact 1.2s 1 ease-in;
   animation-delay: 2.3s;
   position: relative;

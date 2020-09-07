@@ -1,0 +1,74 @@
+#hamnav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 3;
+  opacity: 100%;
+
+  
+}
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+
+/* Horizontal Menu Items */
+#hamitems { 
+  display: flex;
+  width: 50%;
+  background:rgb(182, 180, 180,.6);
+  
+}
+#hamitems a {
+  width: 20%; /* 100% / 5 tabs = 20% */
+  padding: 10px;
+  color:black;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+  
+
+}
+#hamitems a:hover {
+  background: #401408;
+}
+
+#hitems h1{
+  z-index: 3;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+@media screen and (min-width: 769px){
+  #hamnav{
+    display: none;
+  }
+  #hamitems{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  /* Show Hamburger Icon */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background:rgb(119, 33, 33);
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;   
+  }
+
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+

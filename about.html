@@ -5,10 +5,46 @@
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/about.css">
   <link rel="stylesheet" href="./CSS/nav.css">
+  <link rel="stylesheet" href="./CSS/hamNAV.css">
+  <link rel="stylesheet" href="./CSS/navABout.css">
   <link rel="stylesheet" href="./CSS/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+ 
   <title>About Aaron</title>
 </head>
 <body>
-  
+  <nav class="nav">
+    <ul class="navUL">
+      <div class="home shape "><a href="index.html"><h2 class="hoverName indexFont">HOME</h2> <h2 class="hoverLetter indexFont">H</h2></a></div>
+      <div class="about shape aniOP" ><a href="about.html"><h2 class="hoverName indexFont">ABOUT</h2> <h2 class="hoverLetter indexFont">A</h2></a></div>
+      <div class="resume shape aniOP"><a href="resume.html"><h2 class="hoverName indexFont">RESUME</h2> <h2 class="hoverLetter indexFont">R</h2></a></div>
+      <div class="portfolio shape aniOP"><a href="portfolio.html"><h2 class="hoverName indexFont">PORTFOLIO</h2> <h2 class="hoverLetter indexFont">P</h2></a></div>
+      <div class="contactNAV shape aniOP"><a href="contact.html"><h2 class="hoverName indexFont">CONTACT</h2> <h2 class="hoverLetter indexFont">C</h2></a></div>
+    </ul>  
+</nav>
+
+<nav id="hamnav">
+  <!-- [THE HAMBURGER] -->
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+
+  <!-- [MENU ITEMS] -->
+  <div id="hamitems">
+    <a href="./index.html"><h1 class="fontIndex">Home</h1></a>
+    <a href="./about.html"><h1 class="fontIndex">About</h1></a>
+    <a href="./resume.html"><h1 class="fontIndex">Resume</h1></a>
+    <a href="./portfolio.html"><h1 class="fontIndex">Portfolio</h1></a>
+    <a href="./contact.html"><h1 class="fontIndex">Contact</h1></a>
+  </div>
+</nav>
+<div class="image">  
+  <p class="aboutTitle">ABOUT</p>
+  <p class="aboutText">Based in Lubbock, Texas I currently work as Promotion's Coordinator for FOX34.I am currently learning Full Stack Web Developement and I have a special interest in animation.
+    This intrest goes hand-in-hand with my experince with Abode After Effects. I am a quick learner and enjoy a good challenge. I hope to combine the experience of both fields to 
+    advance my skill set as a whole.
+    </p>
+  <img class="imagePOS" src="./images/about.jfif" alt="old model T in a sunset">
+</div>
 </body>
+<link rel="stylesheet" href="./CSS/about.js">
 </html>

@@ -1,0 +1,21 @@
+
+
+#hamitems{
+  background:rgb(182, 180, 180,.9);
+}
+
+#hamnav label {
+  background: black;
+  display: flex;
+  /* flex-direction: row; */
+
+}
+
+#hamnav{
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+

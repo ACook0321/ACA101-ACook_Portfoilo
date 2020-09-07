@@ -46,19 +46,21 @@ a{
 
 .hoverName{
   display: none;
-  padding: 50;
+  padding: 20;
   color: black;
 }
 
 .hoverLetter{
-  padding: 50 25;
+  padding: 10 20;
 }
 
 :hover .hoverName{
   display: unset;
+  transition: all 0.4s ease .03s;
 }
 :hover .hoverLetter{
   display: none;
+  transition: all 0.4s ease .05s;
 }
 
 .about{
@@ -85,10 +87,15 @@ a{
   font-weight: bold;
   font-size: 20px;
 }
-.contact{
+.contactNAV{
   background-color: darkorchid;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
+@media screen and (max-width: 768px){
+  .nav{
+    display: none;
+  }
+}

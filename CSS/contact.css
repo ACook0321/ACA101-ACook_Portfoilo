@@ -1,0 +1,74 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.mainCONTACT{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 600px;
+  max-width: 1600px;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  background-image: url(../images/Mountains.jfif);
+  background-position: center;
+  
+}
+.contactHEADER{
+  color:black;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: rgb(255,255,255,0);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  min-width: 620px;
+}
+.formCONTAINER{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  align-content: center;
+  min-width: 620px;
+  height: 700px;
+  margin: 0 auto;
+  }
+  .conBORDER{
+    border: black 2px solid;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    
+  }
+  ::placeholder{
+    color: black;
+    
+       
+  }
+  .conSIZE{
+    height: 60px;
+    text-align: center;
+    color:white;
+  }
+  .messageSIZE{
+    text-align: center;
+    font-size: 25px;
+  }
+  .sendSIZE{
+    width: 105;
+    height: 66;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+ 
+  }
+

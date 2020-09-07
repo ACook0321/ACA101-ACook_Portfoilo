@@ -15,6 +15,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: bottom;
+  z-index: -1;
 }
 
 
@@ -60,6 +61,7 @@ body{
  overflow: hidden;
  white-space: nowrap;
 }
+
 
 @keyframes text1{
   0%{
